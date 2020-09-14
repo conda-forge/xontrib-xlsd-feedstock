@@ -1,5 +1,5 @@
 {% set name = "xontrib-xlsd" %}
-{% set version = "0.0.5" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1861ed93ef20f55234c1f61d5bd1e67d7a25ee7681c36a4b30aedc7ae09a15de
+  sha256: a86f0da0b1b1c2bf2709ef67a89ab601a04cad7b4496a9925a6fc8bce4efb948
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
-  summary: 'Simple, fast, extensible JSON encoder/decoder for Python'
+  summary: Simple, fast, extensible JSON encoder/decoder for Python
   dev_url: https://github.com/cafehaine/xontrib-xlsd/
 
 extra:
