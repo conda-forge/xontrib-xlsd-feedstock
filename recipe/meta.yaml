@@ -1,5 +1,5 @@
 {% set name = "xontrib-xlsd" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a86f0da0b1b1c2bf2709ef67a89ab601a04cad7b4496a9925a6fc8bce4efb948
+  sha256: 46e7cbb558a9fe20f57029fb23f01d1407838b366b95a9539c2cf8f93deb4dbb
 
 build:
   noarch: python
