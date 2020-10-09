@@ -5,11 +5,11 @@ Home: https://github.com/cafehaine/xontrib-xlsd/
 
 Package license: GPL-3.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xontrib-xlsd-feedstock/blob/master/LICENSE.txt)
 
 Summary: Simple, fast, extensible JSON encoder/decoder for Python
 
-
+Development: https://github.com/cafehaine/xontrib-xlsd/
 
 Current build status
 ====================
